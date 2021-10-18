@@ -10,16 +10,11 @@
     font-weight: normal;
     font-style: normal;
 
-    font-family: 'open_sanslight';
-    src: url('fonts/opensans_light_macroman/OpenSans-Light-webfont.eot');
-    src: url('fonts/opensans_light_macroman/OpenSans-Light-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/opensans_light_macroman/OpenSans-Light-webfont.woff2') format('woff2'),
-         url('fonts/opensans_light_macroman/OpenSans-Light-webfont.woff') format('woff'),
-         url('fonts/opensans_light_macroman/OpenSans-Light-webfont.ttf') format('truetype'),
-         url('fonts/opensans_light_macroman/OpenSans-Light-webfont.svg#open_sanslight') format('svg');
-    font-weight: normal;
-    font-style: normal;
+}
 
+body
+{
+    background-color: #ffffff;
 }
 
 .container
@@ -31,6 +26,8 @@ header
 {
     margin-top: 53px;
 }
+
+/*CSS section 1*/
 
 #section_1
 {
@@ -77,9 +74,9 @@ header
 
 #intro h1
 {
-    font-family: "open_sanslight";
+    font-family: "open_sansregular";
     font-weight: lighter;
-    font-size: 2.5em;
+    font-size: 2.7em;
 }
 
 #intro p
@@ -89,8 +86,299 @@ header
     font-weight: normal;
 }
 
-#Text
+/*CSS section 2*/
+
+#Text h2
 {
-    margin-top: 0px;
-    background-color: aquamarine;
+    font-family: "open_sansregular"; 
+    font-weight: lighter;
+    font-size: 2.1em; 
+    color: #222626;
+    margin-bottom: 15px;
+}
+
+#Text p
+{
+    font-family: "open_sansregular";
+    font-size: 0.9em;
+    margin-top: 15px;
+    color: #959595;
+}
+
+#sous-iphone
+{
+    margin-top: 70px;
+}
+
+/*CSS section 3*/
+
+#Box_grid
+{
+    margin-top: 35px;
+    color: #ffffff;
+    font-family: "open_sansregular";
+    ;
+}
+
+#Box_grid a
+{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+#Box_grid h2
+{
+    font-weight: lighter;
+    font-size: 2em;
+    margin-top: 50px;
+}
+
+#Box_grid p
+{
+    margin-top: 30px;
+    font-size: 0.9em;
+}
+
+#Box_grid a
+{
+    font-weight: bolder;
+}
+
+#pink_box
+{
+    padding-left: 5%;
+    height: 278px;
+    background-color: #f5989d;
+}
+
+#blue_box
+{
+    padding-left: 5%;
+    height: 278px;
+    background-color: #615f7d;
+}
+
+#smallpic_box
+{
+    padding-left: 5%;
+    height: 278px;
+    background: url("images/smallpic_box.png");
+}
+
+#bigpic_box
+{
+    padding-left: 5%;
+    height: 278px;
+    background: url("images/boxgrid_sun.png");
+}
+
+#green_box
+{
+    padding-left: 5%;
+    height: 278px;
+    background-color: #82ca9c;
+}
+
+/*CSS section 4*/
+
+#Fourcol
+{
+    margin-top: 98px;
+    height: 525px;
+    font-family: "open_sansregular";
+}
+
+#Fourcol h2
+{
+    margin-bottom: 69px;
+    font-size: 2em;
+    font-weight: lighter;
+    color: #222626;
+}
+
+#Fourcol h3, p
+{
+    margin-left: Opx;
+}
+
+#Fourcol h3
+{
+    color: #67676d;
+    font-size: 0.9em;
+}
+
+#Fourcol p
+{
+    color: #959595;
+    font-size: 0.8em;
+}
+
+/*CSS section 5*/
+
+#Full_image
+{
+    height: 874px;
+    background: url("images/full_image.png") no-repeat;
+    font-family: "open_sansregular";
+    color: #ffffff;
+}
+
+#Full_image h2
+{
+    font-size: 2em;
+    font-weight: lighter;
+    margin-top: 455px;
+}
+
+#Full_image p
+{
+    margin-top: 40px;
+    font-size: 0.8em;
+}
+
+#Full_image a
+{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+/*CSS section 6*/
+
+#Colour
+{
+    background-color: #82ca9c;
+    height: 534px;
+    font-family: "open_sansregular";
+    color: #ffffff;
+}
+
+#Colour h2
+{
+    font-weight: lighter;
+    font-size: 2em;
+    margin-top: 132px; 
+}
+
+#Colour h3
+{
+    font-size: 0.9em;
+    margin-top: 66px;
+}
+
+#Colour p
+{
+    font-size: 0.8em; 
+    margin-top: 30px;
+}
+
+/*CSS section 7*/
+
+#Buying
+{
+    height: 661px;
+    font-family: "open_sansregular";
+    background-color: #f6f7fa;
+    padding-top: 100px;
+}
+
+#Buying h2
+{
+    font-weight: lighter;
+    font-size: 2em;
+    color: #2e3b4e;
+    margin-top: 26px;
+}
+
+#Buying p
+{ 
+    font-size: 0.8em;
+    margin-top: 26px;
+}
+
+#petit_bouton
+{
+    width: fit-content;
+    margin-bottom: 26px;
+    border: 1px #bd8cbf solid;
+    border-radius: 8px;
+    padding: 5px 12px 5px 12px;
+    text-align: center;
+    background-color: #bd8cbf ;
+    color: white;
+}
+
+#Buying img
+{
+    margin: 5px 5px 5px 5px;
+}
+
+#Buying a
+{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: 1px #82ca9c solid;
+    border-radius: 8px;
+    padding: 5px 12px 5px 12px;
+    text-align: center;
+    background-color: #82ca9c ;
+}
+
+#team_plan
+{
+    background-color: #ffffff; 
+}
+
+.buy_it
+{
+    color: #8297a7;
+}
+
+/*CSS section 8 footer*/
+
+Footer
+{
+    background-color: #192431;
+    height: 568px;
+    color: white;
+    font-family: "open_sansregular";
+}
+
+#get_in_touch
+{
+    padding-top: 128px;
+}
+
+Footer h3
+{
+    font-size: 0.9em;
+}
+
+.form img
+{
+    margin: 0;
+    padding: 0;
+}
+
+Footer p
+{
+    font-size: 0.8em;
+}
+
+Footer ul
+{
+    font-size: 0.8em;
+    list-style-type: none;
+    list-style-position: inside;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+#footer_col
+{
+    margin-top: 26px;
+    margin-left: 0;
+    padding-left: 0;
 }
